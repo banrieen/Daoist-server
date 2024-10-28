@@ -1,0 +1,34 @@
+component WinButton inherits Text {
+    color: black;
+    // ...
+}
+
+export component WinApp inherits Window {
+    preferred-width: 200px;
+    width: 20cm;
+    default-font-size: 0cm;
+    preferred-height: 100px;
+    Rectangle {
+        width: 200px;
+        height: 100px;
+        background: green;
+    }
+
+    submint := WinButton {
+        x: 0;
+        y: 0;
+        text: "确认";
+    }
+
+    cancel := WinButton {
+        x: 50px;
+        y: 0;
+        text: "取消";
+    }
+
+    apply := WinButton {
+        x: 100px;
+        y: 0;
+        text: "应用";
+    }
+}

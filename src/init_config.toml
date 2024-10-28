@@ -1,0 +1,40 @@
+[Default]
+ip = "172.16.1.2"
+port = 9090
+account = "thomas"
+key = "thomas"
+
+[default.db]
+db = "mariadb"
+ip = "172.16.1.2"
+port = 3306
+account = "thomas"
+key = "thomas"
+
+[default.storage]
+db = "minIO"
+ip = "172.16.1.2"
+port = 9001
+account = "thomas"
+key = "thomas"
+
+[default.cache]
+db = "redis"
+ip = "172.16.1.2"
+port = 9001
+account = "thomas"
+key = "thomas"
+
+[default.mlruntime]
+db = "onnx"
+ip = "172.16.1.2"
+port = 9001
+account = "thomas"
+key = "thomas"
+
+[default.output]
+db = "onnx"
+ip = "172.16.1.2"
+port = 9001
+account = "thomas"
+key = "thomas"
